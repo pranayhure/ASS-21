@@ -2,188 +2,78 @@
 <html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="body">
-    <style>
-        .body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #d65093;
+<body>
+    <div class="receipt-holder">
+        <div class="receipt-header">
+            <img src="Mountain-logo.png" class="receipt-img" alt="img" />
+            <div class="receipt-header-txt">Code Techhub</div>
+            <div class="Address">
+                <p>414,MG Road<br />Mailwada,<br />Ahmednagar - 414001.</p>
+            </div>
 
-        }
-
-        .reciept-body {
-            border: 2px solid black;
-            height: 1200px;
-            width: 70%;
-            background-color: ;
-
-        }
-
-        .head {
-            display: flex;
-
-            justify-content: end;
-            border-bottom: 3px dashed black;
-
-        }
-
-        .logo {
-            border-radius: 50%;
-            height: 100PX;
-            margin: 20PX 40PX;
-
-        }
-
-        .head-text {
-            font-size: xxx-large;
-            margin-right: auto;
-            margin-left: auto;
-
-        }
-
-        .foot {
-            display: flex;
-            flex-direction: row;
-            border-bottom: 3px dashed black;
-            font-size: x-large;
-
-        }
-
-        .from {
-
-            margin-left: 100px;
-
-        }
-
-        .reciept-info {
-            margin-left: 600px;
-        }
-
-        .reciept-info1 {
-            margin-left: 20px;
-        }
-
-        .table {
-            margin-left: auto;
-            margin-right: auto;
-            font-size: xx-large;
-
-        }
-
-        .end {
-            display: flex;
-            font-size: xx-large;
-            justify-content: flex-end;
-        }
-
-        .total {
-            margin-right: 200px;
-        }
-        .status{display: flex;
-        flex-direction: row;
-        justify-content: end;
-    }
-    .sign{
-        height: 190px;
-    }
-    </style>
-
-
-    <div class="reciept-body">
-        <div class="head">
-            <P class="head-text"><u>Reciept </u></P>
-            <img src="mahindra.png" class="logo">
+            <div class="Mobile">
+                <p>+91-1234567895</p>
+            </div>
         </div>
 
-        <div class="foot">
-            <p class="from"><b>FROM</b>
-                <br>pranay hure
-                <br>kolhar tal-rahata
-                <br>413711
-            </p>
-            <p class="reciept-info"> <b>RECIPT NO:-</b>
-                <br><b>RECIPT DATE:-</b>
+        <div class="receipt-body">
+            <div class="receipt-txt">Payment Receipt</div>
 
-            </p>
-            <P class="reciept-info1">459454
-                <br>24-07-2023
+            <div class="reciept-detail">
+                <div class="reciept-key">
+                    Receipt No :
+                </div>
+                <div class="receipt-value">
+                    1234567
+                </div>
+            </div>
 
+            <div class="reciept-detail">
+                <div class="reciept-key">
+                    Payment Date :
+                </div>
+                <div class="receipt-value">
+                    14 May 2024
+                </div>
+            </div>
 
-            </P>
+            <div class="reciept-detail">
+                <div class="reciept-key">
+                    Amount :
+                </div>
+                <div class="receipt-value">
+                    40000/-
+                </div>
+            </div>
+
+            <div class="reciept-detail">
+                <div class="reciept-key">
+                    Payment Mode :
+                </div>
+                <div class="receipt-value">
+                    UPI
+                </div>
+            </div>
+
+            <div class="stamp">
+                <img src="stamp.jpg" class="stamp-img" alt="stamp"/>
+                <p>Signature</p>
+            </div>
+            
         </div>
 
-        <div class="foot">
-            <p class="from"><b>BILL TO</b>
-                <br>akash chavan
-                <br>shevagav
-                <br>413711
-            </p>
-            <p class="reciept-info"> <b>SHIP TO</b>
-                <br>Rahuri factory
-                <br>tal-rahuri
-                <br>473821
-
-            </p>
-            <P class="reciept-info1">459454
-                <br>24-07-2023
-
-
-            </P>
+        <div class="receipt-footer">
+            <div class="footer-txt">
+                Thank you
+            </div>
         </div>
-        <br>
-        <br>
-        <table border="2" class="table">
-            <thead>
-                <th>QTY</th>
-                <th>DESCRIPTION</th>
-                <th>UNIT PRICE</th>
-                <th>AMOUNT</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2</td>
-                    <td>shirt</td>
-                    <td>600</td>
-                    <td>1200</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>trousers</td>
-                    <td>800</td>
-                    <td>800</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>cap</td>
-                    <td>100</td>
-                    <td>200</td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <br>
-        <div class="end">
-            <p class="total">
-                Total:-
-            </p>
-            <p>2200</p>
-        </div>
-        <hr>
-        <hr>
-        <div class="status">
-            <img src="stamp.png" class="sign">
-       
-        </div>
-
-
     </div>
 
-
 </body>
-
 </html>
