@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.receipt-holder {
+    width: 80%;
+    height: 100vh;
+    padding: 10px 10px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px #D8AE7E;
+}
+
+.receipt-header {
+    border-bottom: 1px solid gray;
+}
+
+.receipt-img {
+    width: 20%;
+    /* border: 1px solid red; */
+    margin: 0 31.4vw;
+}
+
+.receipt-header-txt {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.Address {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.Mobile {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.receipt-body {
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.receipt-txt {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+}
+
+.reciept-detail {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid yellow; */
+}
+
+.reciept-key {
+    margin-bottom: 10px;
+    width: 20%;
+    /* text-align: end; */
+    /* border: 1px solid red; */
+}
+
+.receipt-value {
+    width: 30%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.stamp {
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+.stamp-img {
+    width: 100px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 160px;
+    bottom: 130px;
+    transform: rotate(-30deg);
+}
+
+.stamp p {
+    text-align: right;
+    font-size: 1.5vw;
+}
+
+.footer-txt {
+    margin-top: 90px;
+    padding: 10px;
+    text-align: center;
+    background: yellow;
+}
+
+
+/*small Device*/
+@media screen and (max-width:600px) {
+    .Address {
+        font-size: 2vw;
+    }
+
+    .Mobile {
+        font-size: 2vw;
+    }
+
+    .receipt-txt {
+        font-size: 3vw;
+    }
+
+    .reciept-key {
+        font-size: 1.5vw;
+    }
+
+    .receipt-value {
+        font-size: 1.5vw;
+    }
+
+    .stamp-img {
+        position: absolute;
+        right: 60px;
+        bottom: 290px;
+        width: 70px;
+
+    }
+    .footer-txt{
+        margin-top: 0;
+    }
+}
+
+/*Normal Device*/
+@media screen and (min-width:601px) and (max-width:768px) {
+    .Address {
+        font-size: 2vw;
+    }
+
+    .Mobile {
+        font-size: 2vw;
+    }
+
+    .receipt-txt {
+        font-size: 3vw;
+    }
+
+    .reciept-key {
+        font-size: 1.9vw;
+    }
+
+    .receipt-value {
+        font-size: 1.9vw;
+    }
+
+    .stamp-img {
+        position: absolute;
+        right: 80px;
+        bottom: 200px;
+        width: 70px;
+
+    }
+
+    .footer-txt{
+        margin-top: 0;
+    }
+}
+
+/*Tablets Device*/
+@media screen and (min-width:769px) and (max-width:992px) {
+    .Address {
+        font-size: 1.8vw;
+    }
+
+    .Mobile {
+        font-size: 1.8vw;
+    }
+
+    .receipt-txt {
+        font-size: 2.5vw;
+    }
+
+    .reciept-key {
+        font-size: 1.4vw;
+    }
+
+    .receipt-value {
+        font-size: 1.4vw;
+    }
+
+    .stamp-img {
+        position: absolute;
+        right: 80px;
+        bottom: 260px;
+        width: 90px;
+
+    }
+
+    .footer-txt{
+        margin-top: 0;
+    }
+}
+
+
+/*Large Device*/
+@media screen and (min-width:993px) and (max-width:1250px) {
+    .Address {
+        font-size: 1.8vw;
+    }
+
+    .Mobile {
+        font-size: 1.8vw;
+        
+    }
+
+    .receipt-txt {
+        font-size: 2.5vw;
+    }
+
+    .reciept-key {
+        font-size: 1.7vw;
+    }
+
+    .receipt-value {
+        font-size: 1.7vw;
+    }
+
+    .stamp-img {
+        position: absolute;
+        right: 100px;
+        bottom: 100px;
+        width: 90px;
+
+    }
+
+    .footer-txt{
+        margin-top: 0;
+    }
+}
